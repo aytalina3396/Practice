@@ -1,0 +1,23 @@
+/* Оформление списка продуктов*/
+.card {
+  margin: 1rem;
+}
+
+/* Картинка продукта */
+.card-img-top {
+  height: 20rem;
+  object-fit: contain;
+}
+
+/* Заголовок продукта */
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Цена продукта */
+.card-text:last-child {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
